@@ -25,7 +25,7 @@ In this project I show you 4 different ways to do AJAX
 7. `npm install` to install npm packages dependencies
 8. `npm run dev` to compile css and js assets
 9. `php artisan migrate` to import the database
-10. Go to localhost/rest if using XAMPP or rest.test if using Laragon
+10. Go to `localhost/rest` if using XAMPP or `rest.test` if using Laragon
 11. Go to `/jquery`, `/ajaxform`, `/axios`, `/vue` to see the different ways to use ajax
 
 ## How the backend code is written
