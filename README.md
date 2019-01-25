@@ -24,14 +24,14 @@ In this project I show you 4 different ways to do AJAX
 ## How the backend code is written
 
 For this project I am learning on how to:
-    - implement the repository + interface pattern
-    - implement the dependency injection pattern
+- implement the repository + interface pattern
+- implement the dependency injection pattern
 
 So you should see interfaces and repositories folders in the app folders
 
 In the repositories folder, you can see there are two files:-
-    - ArrayPostRepositories.php
-    - PostRepositories.php
+- ArrayPostRepositories.php
+- PostRepositories.php
 
 The ArrayPostRepositories is an implementation of when we want to handle the post object using array only
 
@@ -40,9 +40,12 @@ The PostRepositories is an implementation of when we want to have a database to 
 How to swap the implementation?
 
 You can go to App\Providers\AppServiceProviders.php and change `line 26` from
-    $this->app->singleton('App\Interfaces\PostInterface', 'App\Repositories\PostRepository');
+
+`$this->app->singleton('App\Interfaces\PostInterface', 'App\Repositories\PostRepository');`
+
 to
-    $this->app->singleton('App\Interfaces\PostInterface', 'App\Repositories\ArrayPostRepository');
+
+`$this->app->singleton('App\Interfaces\PostInterface', 'App\Repositories\ArrayPostRepository');`
 
 You can see at the constructor of `App\Http\Controllers\PostController.php` I type hinted PostInterface at `line 11`
 
