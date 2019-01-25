@@ -37,7 +37,7 @@ The ArrayPostRepositories is an implementation of when we want to handle the pos
 
 The PostRepositories is an implementation of when we want to have a database to handle the post object
 
-How to swap the implementation?
+### How to swap the implementation?
 
 You can go to App\Providers\AppServiceProviders.php and change `line 26` from
 
