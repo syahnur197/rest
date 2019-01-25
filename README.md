@@ -18,15 +18,15 @@ In this project I show you 4 different ways to do AJAX
 
 1. git clone this project into your laragon/xampp folder
 2. `composer install` to install php packages dependencies
-5. Copy .env.example file to .env file
+5. Copy `.env.example` file to `.env` file and edit the `.env` file
 3. `php artisan key:generate`
 4. Create database called rest
-6. Edit the database credential in .env file
+6. Edit the database credential in `.env` file
 7. `npm install` to install npm packages dependencies
 8. `npm run dev` to compile css and js assets
 9. `php artisan migrate` to import the database
 10. Go to localhost/rest if using XAMPP or rest.test if using Laragon
-11. Go to /jquery, /ajaxform, /axios, /vue to see the different ways to use ajax
+11. Go to `/jquery`, `/ajaxform`, `/axios`, `/vue` to see the different ways to use ajax
 
 ## How the backend code is written
 
