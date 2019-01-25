@@ -8,9 +8,10 @@ In this project I show you 4 different ways to do AJAX
 - Vue + Axios Way
 
 ## Requirement
-1. Git installed
-2. Composer Installed
-3. Node and NPM Installed
+1. Apache & MySQL (Or [XAMPP](https://www.apachefriends.org/download.html)) installed
+1. [Git](https://git-scm.com/downloads) installed
+2. [Composer](https://getcomposer.org/download/) Installed
+3. [Node and NPM](https://nodejs.org/en/download/) Installed
 4. Or just use [Laragon](https://laragon.org/download/) 🤷‍♂️🤷‍♂️
 
 ## Installation Instruction
