@@ -7,6 +7,12 @@ In this project I show you 4 different ways to do AJAX
 - Axios Way
 - Vue + Axios Way
 
+## Requirement
+1. Git installed
+2. Composer Installed
+3. Node and NPM Installed
+4. Or just use [Laragon](https://laragon.org/download/) 🤷‍♂️🤷‍♂️
+
 ## Installation Instruction
 
 1. git clone this project into your laragon/xampp folder
