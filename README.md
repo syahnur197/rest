@@ -30,6 +30,8 @@ In this project I show you 4 different ways to do AJAX
 12. You can view the views (lol) at `resources/views/posts`
 13. As for `/vue` you can view the code at `resources/js/components/AjaxComponents.vue` and `resources/js/app.js`
 14. Any compiled `js` files are stored in `public/js/app.js`
+15. The API routes can be found at `routes/api.php`
+16. The Web routes can be found at `routes/web.php`
 
 ## How the backend code is written
 
