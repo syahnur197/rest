@@ -27,6 +27,9 @@ In this project I show you 4 different ways to do AJAX
 9. `php artisan migrate` to import the database
 10. Go to `localhost/rest` if using XAMPP or `rest.test` if using Laragon
 11. Go to `/jquery`, `/ajaxform`, `/axios`, `/vue` to see the different ways to use ajax
+12. You can view the views (lol) at `resources/views/posts`
+13. As for `/vue` you can view the code at `resources/js/components/AjaxComponents.vue` and `resources/js/app.js`
+14. Any compiled `js` files are stored in `public/js/app.js`
 
 ## How the backend code is written
 
